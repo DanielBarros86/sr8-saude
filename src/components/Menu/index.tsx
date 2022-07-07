@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
 import { Container, Items, Burger, ContactUs } from './styles';
@@ -6,7 +7,17 @@ import { Container, Items, Burger, ContactUs } from './styles';
 export function Menu() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+  const router = useRouter();
+
+  function toggleSidebar() {
+    setIsSidebarOpen((prevState) => !prevState);
+  }
+
   useEffect(() => {
+    if (isSidebarOpen) {
+      router.events.on('routeChangeComplete', toggleSidebar);
+    }
+
     function handleScreenResize() {
       if (window.innerWidth > 1300 && isSidebarOpen) {
         setIsSidebarOpen(false);
@@ -15,12 +26,11 @@ export function Menu() {
 
     window.addEventListener('resize', handleScreenResize);
 
-    return () => window.removeEventListener('resize', handleScreenResize);
+    return () => {
+      window.removeEventListener('resize', handleScreenResize);
+      router.events.off('routeChangeComplete', toggleSidebar);
+    };
   }, [isSidebarOpen]);
-
-  function toggleSidebar() {
-    setIsSidebarOpen((prevState) => !prevState);
-  }
 
   return (
     <Container>
