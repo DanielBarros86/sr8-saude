@@ -38,11 +38,11 @@ export default function Home() {
         <h2>Mais oportunidades para você!</h2>
 
         <div>
-          <img src="/images/condominium.png" alt="Condomínio" />
-          <img src="/images/family.png" alt="Família se abraçando" />
-          <img src="/images/car.png" alt="Carro na rodovia" />
+          <img src="/images/condominium-small.png" alt="Condomínio" />
+          <img src="/images/family-small.png" alt="Família se abraçando" />
+          <img src="/images/car-small.png" alt="Carro azul na rodovia" />
           <img
-            src="/images/consortium.png"
+            src="/images/consortium-small.png"
             alt="Colocando moeda no porquinho"
           />
         </div>
