@@ -27,7 +27,7 @@ export default function Home() {
         <strong>Sua casa e sua família mais protegidas</strong>
         <span>Planos de Saúde</span>
 
-        <Link href="/" passHref>
+        <Link href="/cotation" passHref>
           <Button as="a" buttonType="tertiary">
             Iniciar cotação
           </Button>
