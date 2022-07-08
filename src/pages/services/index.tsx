@@ -9,7 +9,7 @@ export default function Services() {
       <SEO
         title="Serviços"
         description="Seguros e planos para você e sua família"
-        image="/logo.png"
+        image="/images/banner-services.png"
       />
 
       <Banner

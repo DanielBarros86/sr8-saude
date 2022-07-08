@@ -1,9 +1,17 @@
 import { Banner } from '../../components/Banner';
+import { SEO } from '../../components/SEO';
+
 import { Contact, Container, Description, Values } from './styles';
 
 export default function About() {
   return (
     <Container>
+      <SEO
+        title="Sobre nós"
+        description="Tudo sobre nossa empresa"
+        image="/images/banner-about.png"
+      />
+
       <Banner
         title="SR8 Saúde Brasil"
         subtitle="Tudo sobre nossa empresa"

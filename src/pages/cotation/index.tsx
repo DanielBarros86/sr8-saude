@@ -9,9 +9,10 @@ import { Input } from '../../components/Input';
 import { InputMask } from '../../components/InputMask';
 import { Loader } from '../../components/Loader';
 import { Button } from '../../components/Button';
+import { SEO } from '../../components/SEO';
+import { phoneNumberRegex } from '../../utils/regexes';
 
 import { Container } from './styles';
-import { phoneNumberRegex } from '../../utils/regexes';
 
 type Cotation = {
   name: string;
@@ -70,6 +71,12 @@ export default function Cotation() {
 
   return (
     <Container>
+      <SEO
+        title="Cotação"
+        description="Solicite a sua cotação"
+        image="/images/banner-home.png"
+      />
+
       <header>
         <h1>Iniciar Cotação</h1>
         <span>
