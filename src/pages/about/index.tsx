@@ -8,6 +8,7 @@ export default function About() {
         title="SR8 Saúde Brasil"
         subtitle="Tudo sobre nossa empresa"
         imageUrl="/images/banner-about.png"
+        imageUrlMobile="/images/banner-about-mobile.png"
       />
 
       <main>

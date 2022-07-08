@@ -69,7 +69,7 @@ export function Menu() {
 
             <li>
               <Link href="/lgpd">
-                <a>LGDP</a>
+                <a>LGPD</a>
               </Link>
             </li>
           </ul>

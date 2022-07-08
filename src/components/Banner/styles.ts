@@ -4,11 +4,21 @@ type ContainerProps = {
   height: string;
   imageUrl: string;
   imageUrlMobile?: string;
+  imagePosition:
+    | 'initial'
+    | 'revert'
+    | 'unset'
+    | 'top'
+    | 'center'
+    | 'bottom'
+    | 'left'
+    | 'right';
 };
 
 export const Container = styled.div<ContainerProps>`
   background: url(${({ imageUrl }) => imageUrl}) no-repeat;
   background-size: cover;
+  background-position: ${({ imagePosition }) => imagePosition};
   height: ${({ height }) => height};
 
   padding: 0 1.6rem;
@@ -33,6 +43,7 @@ export const Container = styled.div<ContainerProps>`
     font-size: 1.5rem;
     font-weight: 500;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
   }
 
   a {
@@ -44,6 +55,10 @@ export const Container = styled.div<ContainerProps>`
   }
 
   @media (max-width: 720px) {
+    height: ${({ height }) => `calc(${height} - 2rem)`};
+  }
+
+  @media (max-width: 500px) {
     ${({ imageUrlMobile }) =>
       imageUrlMobile &&
       css`

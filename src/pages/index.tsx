@@ -27,6 +27,8 @@ export default function Home() {
         title="Sua casa e sua família mais protegidas"
         subtitle="Planos de Saúde"
         imageUrl="/images/banner-home.png"
+        imageUrlMobile="/images/banner-home-mobile.png"
+        imagePosition="initial"
         height="45rem">
         <Link href="/cotation" passHref>
           <Button as="a" buttonType="tertiary">

@@ -89,6 +89,7 @@ export const Values = styled.div`
         font-weight: 500;
         font-size: 1.25rem;
         line-height: 1.9rem;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
     }
   }
@@ -172,6 +173,7 @@ export const Contact = styled.section`
       'infos'
       'infos'
       'infos';
+    row-gap: 1.25rem;
 
     img {
       grid-area: image;
@@ -184,6 +186,7 @@ export const Contact = styled.section`
       strong {
         grid-area: title;
         padding: 0 1.25rem;
+        margin-bottom: 0;
       }
 
       div {
@@ -192,9 +195,12 @@ export const Contact = styled.section`
         padding: 0 2rem;
 
         span {
-          margin-top: 1.25rem;
           padding: 0 2rem;
           text-align: center;
+
+          & + span {
+            margin-top: 0;
+          }
         }
       }
     }
