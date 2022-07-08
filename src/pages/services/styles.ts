@@ -41,7 +41,7 @@ export const Section = styled.section`
   background: ${({ theme }) => theme.colors.backgroundPrimary};
 
   div {
-    width: 50%;
+    flex: 1;
     padding: 3.7rem 3.1rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -49,6 +49,7 @@ export const Section = styled.section`
       display: block;
       font-size: 2.5rem;
       text-align: center;
+      padding: 0 1rem;
     }
 
     p {

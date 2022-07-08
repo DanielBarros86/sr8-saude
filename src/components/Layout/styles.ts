@@ -69,6 +69,10 @@ export const Footer = styled.footer`
       justify-content: center;
       gap: 1.85rem;
 
+      > img {
+        width: 9.4rem;
+      }
+
       section:first-of-type {
         strong {
           display: block;
