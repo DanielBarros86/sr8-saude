@@ -1,37 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  > div {
-    background: url('/images/banner-services.png') no-repeat;
-    background-size: cover;
-    height: 25rem;
-
-    padding: 0 4.3rem;
-    color: ${({ theme }) => theme.colors.white};
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    strong {
-      text-align: center;
-      font-size: 3.1rem;
-      font-weight: 500;
-      color: inherit;
-    }
-
-    span {
-      display: block;
-      margin-top: 2.5rem;
-      font-size: 1.5rem;
-      font-weight: 500;
-    }
-  }
-
-  > section {
-    max-width: 1440px;
+  main {
+    max-width: 1540px;
     margin: 0 auto;
   }
 `;
@@ -56,7 +27,7 @@ export const Section = styled.section`
       margin-top: 2.5rem;
       font-size: 1.25rem;
       font-weight: 500;
-      line-height: 1.7rem;
+      line-height: 1.9rem;
     }
   }
 

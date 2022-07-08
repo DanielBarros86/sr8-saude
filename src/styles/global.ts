@@ -60,6 +60,7 @@ export const GlobalStyles = createGlobalStyle`
   h1, h2, h3, h4, h5, h6, strong {
     font-weight: 700;
     color: ${({ theme }) => theme.colors.grayHeadline};
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   button {

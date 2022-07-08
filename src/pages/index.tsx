@@ -1,11 +1,11 @@
 import { GetStaticProps } from 'next';
 import Link from 'next/link';
 
+import { Banner } from '../components/Banner';
 import { Button } from '../components/Button';
 import { SEO } from '../components/SEO';
 
 import {
-  Banner,
   Container,
   Opportunities,
   Location,
@@ -23,10 +23,11 @@ export default function Home() {
         image="/logo.png"
       />
 
-      <Banner>
-        <strong>Sua casa e sua família mais protegidas</strong>
-        <span>Planos de Saúde</span>
-
+      <Banner
+        title="Sua casa e sua família mais protegidas"
+        subtitle="Planos de Saúde"
+        imageUrl="/images/banner-home.png"
+        height="45rem">
         <Link href="/cotation" passHref>
           <Button as="a" buttonType="tertiary">
             Iniciar cotação

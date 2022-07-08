@@ -10,7 +10,6 @@ export const Container = styled.div`
   align-items: center;
 
   header {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: ${({ theme }) => theme.colors.grayHeadline};
 
     h1 {
@@ -26,6 +25,7 @@ export const Container = styled.div`
       font-size: 1.5rem;
       font-weight: 500;
       max-width: 44rem;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
   }
 

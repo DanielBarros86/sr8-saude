@@ -52,8 +52,6 @@ export default function Cotation() {
 
   const phoneNumber = watch('phoneNumber');
 
-  console.log('PHONE: ', phoneNumber);
-
   function handleSendCotation(data: Cotation) {
     setIsLoading(true);
 

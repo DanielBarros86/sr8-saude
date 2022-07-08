@@ -16,7 +16,7 @@ export const Container = styled.header`
   background: ${({ theme }) => theme.colors.white};
 
   nav {
-    max-width: 1500px;
+    max-width: 1540px;
     margin: 0 auto;
     padding: 1rem 2.5rem;
 
@@ -91,7 +91,7 @@ export const Items = styled.div<ItemsProps>`
     }
   }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1220px) {
     position: fixed;
     top: 0;
     right: 0;
@@ -118,7 +118,7 @@ export const Items = styled.div<ItemsProps>`
       flex-direction: column;
       flex: 0;
       text-align: center;
-      margin: 7rem 0 3rem;
+      margin: 7rem 0 2.5rem;
       gap: 3rem;
 
       li {
@@ -215,7 +215,7 @@ export const Burger = styled.button<BurgerProps>`
     }
   }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1220px) {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -235,7 +235,7 @@ export const ContactUs = styled(Button).attrs(() => ({
 }))`
   text-decoration: none;
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1200px) {
     font-size: 1.4rem;
     color: ${({ theme }) => theme.colors.white};
     padding: 2rem 0;
@@ -248,5 +248,3 @@ export const ContactUs = styled(Button).attrs(() => ({
     }
   }
 `;
-
-// export const ContactUs = styled(Button)``;

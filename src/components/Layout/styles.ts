@@ -31,6 +31,10 @@ export const Footer = styled.footer`
     }
 
     section:first-of-type {
+      strong {
+        text-shadow: none;
+      }
+
       ul {
         margin-top: 1rem;
         margin-left: 1.5rem;

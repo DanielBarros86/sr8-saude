@@ -4,41 +4,8 @@ export const Container = styled.div`
   width: 100%;
 
   > section {
-    max-width: 1440px;
+    max-width: 1540px;
     margin: 0 auto;
-  }
-`;
-
-export const Banner = styled.div`
-  background: url('/images/banner-home.png') no-repeat;
-  background-size: cover;
-  height: 40rem;
-  padding: 0 1.5rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  color: ${({ theme }) => theme.colors.white};
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  gap: 2.5rem;
-
-  strong {
-    display: block;
-    color: inherit;
-    font-size: 3.1rem;
-    font-weight: 500;
-    text-align: center;
-    line-height: 3rem;
-  }
-
-  span {
-    font-size: 1.5rem;
-  }
-
-  a {
-    text-decoration: none;
   }
 `;
 
@@ -50,7 +17,6 @@ export const Opportunities = styled.section`
     font-size: 2.5rem;
     line-height: 2.3rem;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   div {
@@ -82,6 +48,7 @@ export const Location = styled.section`
       font-size: 1.2rem;
       font-weight: 500;
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      line-height: 1.9rem;
     }
   }
 
@@ -117,7 +84,6 @@ export const Highlighted = styled.section`
     font-size: 5rem;
     color: ${({ theme }) => theme.colors.white};
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   @media (max-width: 1000px) {
@@ -144,7 +110,6 @@ export const PartnerCompanies = styled.section`
     display: block;
     font-size: 2.5rem;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   div {
