@@ -55,6 +55,7 @@ export function Layout({ children }: LayoutProps) {
         <div>
           <span>©2022 - SR8</span>
           <span>Todos os direitos reservados</span>
+          <span>Developer xcoders</span>
         </div>
       </Footer>
     </Container>
