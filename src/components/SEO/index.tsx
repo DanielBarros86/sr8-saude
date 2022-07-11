@@ -30,13 +30,24 @@ export function SEO({
       {description && <meta name="description" content={description} />}
       {pageImage && <meta name="image" content={pageImage} />}
 
-      {!shouldIndexPage && <meta name="robots" content="noindex,nofollow" />}
+      {shouldIndexPage ? (
+        <>
+          <meta name="robots" content="index, follow" />
+          <meta name="googlebot" content="index, follow" />
+        </>
+      ) : (
+        <>
+          <meta name="robots" content="noindex, nofollow" />
+          <meta name="googlebot" content="noindex, nofollow" />
+        </>
+      )}
 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="x-ua-compatible" content="IE=edge,chrome=1" />
       <meta name="MobileOptimized" content="320" />
       <meta name="HandheldFriendly" content="True" />
-      <meta name="theme-color" content="#121214" />
-      <meta name="msapplication-TileColor" content="#121214" />
+      <meta name="theme-color" content="#1F80AD" />
+      <meta name="msapplication-TileColor" content="#1F80AD" />
       <meta name="referrer" content="no-referrer-when-downgrade" />
 
       <meta property="og:title" content={pageTitle} />
@@ -53,8 +64,6 @@ export function SEO({
 
       <meta name="twitter:title" content={pageTitle} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@rocketseat" />
-      <meta name="twitter:creator" content="@rocketseat" />
       {pageImage && <meta name="twitter:image" content={pageImage} />}
       {pageImage && <meta name="twitter:image:src" content={pageImage} />}
       <meta name="twitter:image:alt" content="Thumbnail" />
