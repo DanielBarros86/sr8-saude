@@ -1,34 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import GothamLightTtf from '../assets/fonts/Gotham/GothamLight.ttf';
-import GothamLightOtf from '../assets/fonts/Gotham/Gotham-Light.otf';
-import GothamMediumTtf from '../assets/fonts/Gotham/GothamMedium.ttf';
-import GothamMediumOtf from '../assets/fonts/Gotham/Gotham-Medium.otf';
-import GothamBoldTtf from '../assets/fonts/Gotham/GothamBold.ttf';
-import GothamBoldOtf from '../assets/fonts/Gotham/Gotham-Bold.otf';
-
 export const GlobalStyles = createGlobalStyle`
-  @font-face {
-     font-family: 'Gotham';
-     src: url(${GothamLightTtf}) format('ttf'),
-          url(${GothamLightOtf}) format('otf');
-     font-weight: 400;
-  }
-
-  @font-face {
-     font-family: 'Gotham';
-     src: url(${GothamMediumTtf}) format('ttf'),
-          url(${GothamMediumOtf}) format('otf');
-     font-weight: 500;
-  }
-
-  @font-face {
-     font-family: 'Gotham';
-     src: url(${GothamBoldTtf}) format('ttf'),
-          url(${GothamBoldOtf}) format('otf');
-     font-weight: 700;
-  }
-
   * {
     margin: 0;
     padding: 0;
