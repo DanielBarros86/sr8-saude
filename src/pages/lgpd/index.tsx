@@ -1,7 +1,7 @@
 import { Banner } from '../../components/Banner';
 import { SEO } from '../../components/SEO';
 
-import { Container, Description, MorePolicies } from './styles';
+import { Accordion, Container, Description, MorePolicies } from './styles';
 
 export default function LGDP() {
   return (
@@ -40,39 +40,169 @@ export default function LGDP() {
         </Description>
 
         <MorePolicies>
-          <ul>
-            <li>
-              <img src="/icons/plus.svg" alt="Ver mais" />
-              Mais políticas
-            </li>
+          <div>
+            <Accordion>
+              <input type="checkbox" id="policy1" />
+              <label htmlFor="policy1">
+                <img src="/icons/plus.svg" alt="Ver mais" />
+                Mais Políticas
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur id gravida urna. Nunc ut feugiat enim. Donec ligula
+                nibh, tincidunt eleifend posuere a, semper ac magna. Nam
+                tincidunt tristique lacus sit amet fringilla. Sed scelerisque
+                tristique enim sed facilisis. Proin lacinia odio eu turpis
+                sodales pretium. Cras a nulla ac felis porta scelerisque egestas
+                in velit. Etiam pretium vitae neque ac feugiat. Nulla sed
+                pulvinar ipsum, eu varius augue. Etiam sodales, nibh vehicula
+                vehicula suscipit, quam ipsum tempor nulla, non gravida ante
+                ligula eget diam. Aliquam et sem nisl.
+              </p>
+            </Accordion>
 
-            <li>
-              <img src="/icons/plus.svg" alt="Ver mais" />
-              Mais políticas
-            </li>
+            <Accordion>
+              <input type="checkbox" id="policy2" />
+              <label htmlFor="policy2">
+                <img src="/icons/plus.svg" alt="Ver mais" />
+                Mais Políticas
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur id gravida urna. Nunc ut feugiat enim. Donec ligula
+                nibh, tincidunt eleifend posuere a, semper ac magna. Nam
+                tincidunt tristique lacus sit amet fringilla. Sed scelerisque
+                tristique enim sed facilisis. Proin lacinia odio eu turpis
+                sodales pretium. Cras a nulla ac felis porta scelerisque egestas
+                in velit. Etiam pretium vitae neque ac feugiat. Nulla sed
+                pulvinar ipsum, eu varius augue. Etiam sodales, nibh vehicula
+                vehicula suscipit, quam ipsum tempor nulla, non gravida ante
+                ligula eget diam. Aliquam et sem nisl.
+              </p>
+            </Accordion>
 
-            <li>
-              <img src="/icons/plus.svg" alt="Ver mais" />
-              Mais políticas
-            </li>
-          </ul>
+            <Accordion>
+              <input type="checkbox" id="policy3" />
+              <label htmlFor="policy3">
+                <img src="/icons/plus.svg" alt="Ver mais" />
+                Mais Políticas
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur id gravida urna. Nunc ut feugiat enim. Donec ligula
+                nibh, tincidunt eleifend posuere a, semper ac magna. Nam
+                tincidunt tristique lacus sit amet fringilla. Sed scelerisque
+                tristique enim sed facilisis. Proin lacinia odio eu turpis
+                sodales pretium. Cras a nulla ac felis porta scelerisque egestas
+                in velit. Etiam pretium vitae neque ac feugiat. Nulla sed
+                pulvinar ipsum, eu varius augue. Etiam sodales, nibh vehicula
+                vehicula suscipit, quam ipsum tempor nulla, non gravida ante
+                ligula eget diam. Aliquam et sem nisl.
+              </p>
+            </Accordion>
 
-          <ul>
-            <li>
-              <img src="/icons/plus.svg" alt="Ver mais" />
-              Mais políticas
-            </li>
+            <Accordion>
+              <input type="checkbox" id="policy4" />
+              <label htmlFor="policy4">
+                <img src="/icons/plus.svg" alt="Ver mais" />
+                Mais Políticas
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur id gravida urna. Nunc ut feugiat enim. Donec ligula
+                nibh, tincidunt eleifend posuere a, semper ac magna. Nam
+                tincidunt tristique lacus sit amet fringilla. Sed scelerisque
+                tristique enim sed facilisis. Proin lacinia odio eu turpis
+                sodales pretium. Cras a nulla ac felis porta scelerisque egestas
+                in velit. Etiam pretium vitae neque ac feugiat. Nulla sed
+                pulvinar ipsum, eu varius augue. Etiam sodales, nibh vehicula
+                vehicula suscipit, quam ipsum tempor nulla, non gravida ante
+                ligula eget diam. Aliquam et sem nisl.
+              </p>
+            </Accordion>
+          </div>
 
-            <li>
-              <img src="/icons/plus.svg" alt="Ver mais" />
-              Mais políticas
-            </li>
+          <div>
+            <Accordion>
+              <input type="checkbox" id="policy5" />
+              <label htmlFor="policy5">
+                <img src="/icons/plus.svg" alt="Ver mais" />
+                Mais Políticas
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur id gravida urna. Nunc ut feugiat enim. Donec ligula
+                nibh, tincidunt eleifend posuere a, semper ac magna. Nam
+                tincidunt tristique lacus sit amet fringilla. Sed scelerisque
+                tristique enim sed facilisis. Proin lacinia odio eu turpis
+                sodales pretium. Cras a nulla ac felis porta scelerisque egestas
+                in velit. Etiam pretium vitae neque ac feugiat. Nulla sed
+                pulvinar ipsum, eu varius augue. Etiam sodales, nibh vehicula
+                vehicula suscipit, quam ipsum tempor nulla, non gravida ante
+                ligula eget diam. Aliquam et sem nisl.
+              </p>
+            </Accordion>
 
-            <li>
-              <img src="/icons/plus.svg" alt="Ver mais" />
-              Mais políticas
-            </li>
-          </ul>
+            <Accordion>
+              <input type="checkbox" id="policy6" />
+              <label htmlFor="policy6">
+                <img src="/icons/plus.svg" alt="Ver mais" />
+                Mais Políticas
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur id gravida urna. Nunc ut feugiat enim. Donec ligula
+                nibh, tincidunt eleifend posuere a, semper ac magna. Nam
+                tincidunt tristique lacus sit amet fringilla. Sed scelerisque
+                tristique enim sed facilisis. Proin lacinia odio eu turpis
+                sodales pretium. Cras a nulla ac felis porta scelerisque egestas
+                in velit. Etiam pretium vitae neque ac feugiat. Nulla sed
+                pulvinar ipsum, eu varius augue. Etiam sodales, nibh vehicula
+                vehicula suscipit, quam ipsum tempor nulla, non gravida ante
+                ligula eget diam. Aliquam et sem nisl.
+              </p>
+            </Accordion>
+
+            <Accordion>
+              <input type="checkbox" id="policy7" />
+              <label htmlFor="policy7">
+                <img src="/icons/plus.svg" alt="Ver mais" />
+                Mais Políticas
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur id gravida urna. Nunc ut feugiat enim. Donec ligula
+                nibh, tincidunt eleifend posuere a, semper ac magna. Nam
+                tincidunt tristique lacus sit amet fringilla. Sed scelerisque
+                tristique enim sed facilisis. Proin lacinia odio eu turpis
+                sodales pretium. Cras a nulla ac felis porta scelerisque egestas
+                in velit. Etiam pretium vitae neque ac feugiat. Nulla sed
+                pulvinar ipsum, eu varius augue. Etiam sodales, nibh vehicula
+                vehicula suscipit, quam ipsum tempor nulla, non gravida ante
+                ligula eget diam. Aliquam et sem nisl.
+              </p>
+            </Accordion>
+
+            <Accordion>
+              <input type="checkbox" id="policy8" />
+              <label htmlFor="policy8">
+                <img src="/icons/plus.svg" alt="Ver mais" />
+                Mais Políticas
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur id gravida urna. Nunc ut feugiat enim. Donec ligula
+                nibh, tincidunt eleifend posuere a, semper ac magna. Nam
+                tincidunt tristique lacus sit amet fringilla. Sed scelerisque
+                tristique enim sed facilisis. Proin lacinia odio eu turpis
+                sodales pretium. Cras a nulla ac felis porta scelerisque egestas
+                in velit. Etiam pretium vitae neque ac feugiat. Nulla sed
+                pulvinar ipsum, eu varius augue. Etiam sodales, nibh vehicula
+                vehicula suscipit, quam ipsum tempor nulla, non gravida ante
+                ligula eget diam. Aliquam et sem nisl.
+              </p>
+            </Accordion>
+          </div>
         </MorePolicies>
       </main>
     </Container>

@@ -88,53 +88,74 @@ export const Description = styled.section`
 
 export const MorePolicies = styled.section`
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
   padding: 2.5rem;
-
-  ul {
-    list-style: none;
-    gap: 1.9rem;
-
-    & + ul {
-      margin-top: 1.25rem;
-    }
-
-    li {
-      width: 25rem;
-      padding: 0.5rem 2rem;
-      background: ${({ theme }) => theme.colors.backgroundSecondary};
-
-      font-size: 1.9rem;
-      font-weight: 500;
-      color: ${({ theme }) => theme.colors.grayHeadline};
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-      display: flex;
-      align-items: center;
-
-      & + li {
-        margin-top: 1.25rem;
-      }
-
-      img {
-        margin-right: 0.9rem;
-      }
-    }
-  }
 
   @media (max-width: 980px) {
     flex-direction: column;
     justify-content: center;
 
-    ul {
-      width: 100%;
-      gap: 1.25rem;
+    > div + div {
+      margin-top: 1.25rem;
+    }
+  }
+`;
 
-      li {
-        display: flex;
-        width: 100%;
+export const Accordion = styled.div`
+  width: 25rem;
+  overflow: hidden;
+
+  & + div {
+    margin-top: 1.9rem;
+  }
+
+  input {
+    display: none;
+
+    &:checked {
+      ~ p {
+        max-height: 100vh;
+        padding: 1rem;
       }
+
+      ~ label {
+        filter: brightness(0.9);
+      }
+    }
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background: ${({ theme }) => theme.colors.backgroundSecondary};
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: ${({ theme }) => theme.colors.grayHeadline};
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+
+    img {
+      margin-right: 0.9rem;
+    }
+  }
+
+  p {
+    max-height: 0;
+    font-size: 1.2rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.7s;
+  }
+
+  @media (max-width: 980px) {
+    width: 100%;
+
+    & + div {
+      margin-top: 1.25rem;
     }
   }
 `;

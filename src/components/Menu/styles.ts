@@ -1,6 +1,10 @@
 import styled, { css } from 'styled-components';
 import { Button } from '../Button';
 
+type ContainerProps = {
+  isSidebarOpen: boolean;
+};
+
 type ItemsProps = {
   isSidebarOpen: boolean;
 };
@@ -9,7 +13,7 @@ type BurgerProps = {
   isSidebarOpen: boolean;
 };
 
-export const Container = styled.header`
+export const Container = styled.header<ContainerProps>`
   position: fixed;
   top: 0;
   width: 100%;
@@ -31,6 +35,7 @@ export const Container = styled.header`
       top: 2.8rem;
       right: 19.2rem;
       z-index: 2;
+      display: ${({ isSidebarOpen }) => (isSidebarOpen ? 'block' : 'none')};
     }
 
     @media (max-width: 720px) {

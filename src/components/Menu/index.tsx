@@ -19,7 +19,7 @@ export function Menu() {
     }
 
     function handleScreenResize() {
-      if (window.innerWidth > 1300 && isSidebarOpen) {
+      if (window.innerWidth > 1220 && isSidebarOpen) {
         setIsSidebarOpen(false);
       }
     }
@@ -33,7 +33,7 @@ export function Menu() {
   }, [isSidebarOpen]);
 
   return (
-    <Container>
+    <Container isSidebarOpen={isSidebarOpen}>
       <nav>
         <Link href="/">
           <a>
