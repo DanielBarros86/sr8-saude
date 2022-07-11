@@ -1,7 +1,8 @@
-import { Banner } from '../../components/Banner';
-import { SEO } from '../../components/SEO';
+import { GetStaticProps } from 'next';
+import { Banner } from '../components/Banner';
+import { SEO } from '../components/SEO';
 
-import { Container, Section } from './styles';
+import { Container, Section } from '../styles/pages/services';
 
 export default function Services() {
   return (
@@ -103,3 +104,7 @@ export default function Services() {
     </Container>
   );
 }
+
+export const getStaticProps: GetStaticProps = () => ({
+  props: {},
+});

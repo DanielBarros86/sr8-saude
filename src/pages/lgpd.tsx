@@ -1,7 +1,14 @@
-import { Banner } from '../../components/Banner';
-import { SEO } from '../../components/SEO';
+import { GetStaticProps } from 'next';
 
-import { Accordion, Container, Description, MorePolicies } from './styles';
+import { Banner } from '../components/Banner';
+import { SEO } from '../components/SEO';
+
+import {
+  Accordion,
+  Container,
+  Description,
+  MorePolicies,
+} from '../styles/pages/lgpd';
 
 export default function LGDP() {
   return (
@@ -208,3 +215,7 @@ export default function LGDP() {
     </Container>
   );
 }
+
+export const getStaticProps: GetStaticProps = () => ({
+  props: {},
+});

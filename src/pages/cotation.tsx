@@ -1,18 +1,19 @@
 import { useState } from 'react';
+import { GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import { toast } from 'react-toastify';
 import { useForm, Controller } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 
-import { Input } from '../../components/Input';
-import { InputMask } from '../../components/InputMask';
-import { Loader } from '../../components/Loader';
-import { Button } from '../../components/Button';
-import { SEO } from '../../components/SEO';
-import { phoneNumberRegex } from '../../utils/regexes';
+import { Input } from '../components/Input';
+import { InputMask } from '../components/InputMask';
+import { Loader } from '../components/Loader';
+import { Button } from '../components/Button';
+import { SEO } from '../components/SEO';
+import { phoneNumberRegex } from '../utils/regexes';
 
-import { Container } from './styles';
+import { Container } from '../styles/pages/cotation';
 
 type Cotation = {
   name: string;
@@ -133,3 +134,7 @@ export default function Cotation() {
     </Container>
   );
 }
+
+export const getStaticProps: GetStaticProps = () => ({
+  props: {},
+});

@@ -11,7 +11,7 @@ import {
   Location,
   Highlighted,
   PartnerCompanies,
-} from '../styles/home';
+} from '../styles/pages/home';
 
 export default function Home() {
   return (

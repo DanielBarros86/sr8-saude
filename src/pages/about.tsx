@@ -1,7 +1,9 @@
-import { Banner } from '../../components/Banner';
-import { SEO } from '../../components/SEO';
+import { GetStaticProps } from 'next';
 
-import { Contact, Container, Description, Values } from './styles';
+import { Banner } from '../components/Banner';
+import { SEO } from '../components/SEO';
+
+import { Contact, Container, Description, Values } from '../styles/pages/about';
 
 export default function About() {
   return (
@@ -96,3 +98,7 @@ export default function About() {
     </Container>
   );
 }
+
+export const getStaticProps: GetStaticProps = () => ({
+  props: {},
+});
