@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   height: 100%;
   padding: 5rem 2.5rem 0;
-  background: ${({ theme }) => theme.colors.backgroundSecondary};
+  background: ${({ theme }) => theme.colors.backgroundPrimary};
 
   display: flex;
   flex-direction: column;
@@ -37,5 +37,9 @@ export const Container = styled.div`
     button {
       margin: 2.5rem auto 0;
     }
+  }
+
+  > img {
+    margin: 2.5rem 0 5rem;
   }
 `;

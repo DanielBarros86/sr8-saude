@@ -30,6 +30,12 @@ export const Container = styled.header<ContainerProps>`
 
     position: relative;
 
+    > a {
+      img {
+        width: 14.8rem;
+      }
+    }
+
     > img {
       position: fixed;
       top: 2.8rem;

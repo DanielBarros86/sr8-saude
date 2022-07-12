@@ -31,7 +31,12 @@ export const Opportunities = styled.section`
 
 export const Location = styled.section`
   display: flex;
+  align-items: center;
   background: ${({ theme }) => theme.colors.backgroundSecondary};
+
+  img {
+    height: 25rem;
+  }
 
   div {
     padding: 5.6rem 9rem 5.6rem 6rem;
@@ -53,6 +58,10 @@ export const Location = styled.section`
   @media (max-width: 1100px) {
     align-items: center;
     flex-direction: column-reverse;
+
+    img {
+      margin: 1.9rem 0 2.5rem;
+    }
 
     div {
       padding: 2.5rem 1.5rem 0;
