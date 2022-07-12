@@ -34,13 +34,11 @@ export const Location = styled.section`
   background: ${({ theme }) => theme.colors.backgroundSecondary};
 
   div {
-    max-width: 36rem;
-    margin: 0 5.6rem;
+    padding: 5.6rem 9rem 5.6rem 6rem;
 
     h2 {
       font-size: 2.5rem;
       text-align: center;
-      margin-top: 5.9rem;
     }
 
     p {
@@ -52,25 +50,12 @@ export const Location = styled.section`
     }
   }
 
-  @media (max-width: 1040px) {
+  @media (max-width: 1100px) {
     align-items: center;
     flex-direction: column-reverse;
-    padding: 2.5rem 1.5rem;
-
-    img {
-      margin-top: 1.9rem;
-      width: 20rem;
-    }
-
-    margin: 0;
 
     div {
-      max-width: initial;
-      margin: 0;
-
-      h2 {
-        margin-top: 0;
-      }
+      padding: 2.5rem 1.5rem 0;
     }
   }
 `;

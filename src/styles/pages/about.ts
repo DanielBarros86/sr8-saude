@@ -31,13 +31,19 @@ export const Description = styled.section`
     padding: 2.5rem 0;
 
     img {
+      width: 25rem;
       margin: 0;
-      width: 17rem;
     }
 
     p {
       max-width: 100%;
       padding: 0 1.6rem;
+    }
+  }
+
+  @media (max-width: 720px) {
+    img {
+      width: 22rem;
     }
   }
 `;

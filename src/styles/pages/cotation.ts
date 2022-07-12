@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: 100%;
-  padding: 5rem 2.5rem;
+  padding: 5rem 2.5rem 0;
   background: ${({ theme }) => theme.colors.backgroundSecondary};
 
   display: flex;
@@ -37,10 +37,5 @@ export const Container = styled.div`
     button {
       margin: 2.5rem auto 0;
     }
-  }
-
-  > img {
-    margin-top: 2.5rem;
-    width: 12.5rem;
   }
 `;
