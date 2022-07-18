@@ -41,9 +41,21 @@ export default function Home() {
         <h2>Mais oportunidades para você!</h2>
 
         <div>
-          <img src="/images/condominium-small.webp" alt="Condomínio" />
-          <img src="/images/family-small.webp" alt="Família se abraçando" />
-          <img src="/images/car-small.webp" alt="Carro azul na rodovia" />
+          <img
+            src="/images/condominium-small.webp"
+            alt="Condomínio"
+            loading="lazy"
+          />
+          <img
+            src="/images/family-small.webp"
+            alt="Família se abraçando"
+            loading="lazy"
+          />
+          <img
+            src="/images/car-small.webp"
+            alt="Carro azul na rodovia"
+            loading="lazy"
+          />
           <img
             src="/images/consortium-small.webp"
             alt="Colocando moeda no porquinho"
@@ -77,21 +89,62 @@ export default function Home() {
         <h2>Empresas que somos parceiros</h2>
 
         <div>
-          <img src="/images/mapfre-seguros.webp" alt="Mapfre Seguros" />
-          <img src="/images/porto-seguro.webp" alt="Porto Seguro" />
-          <img src="/images/hdi-seguros.webp" alt="HDI Seguros" />
-          <img src="/images/sul-america.webp" alt="Sul América" />
-          <img src="/images/allianz.webp" alt="Allianz" />
-          <img src="/images/bradesco-seguros.webp" alt="Bradesco Seguros" />
-          <img src="/images/zurich-seguros.webp" alt="Zurich Seguros" />
-          <img src="/images/azul-seguros.webp" alt="Azul Seguros" />
-          <img src="/images/liberty-seguros.webp" alt="Liberty Seguros" />
+          <img
+            src="/images/mapfre-seguros.webp"
+            alt="Mapfre Seguros"
+            loading="lazy"
+          />
+          <img
+            src="/images/porto-seguro.webp"
+            alt="Porto Seguro"
+            loading="lazy"
+          />
+          <img
+            src="/images/hdi-seguros.webp"
+            alt="HDI Seguros"
+            loading="lazy"
+          />
+          <img
+            src="/images/sul-america.webp"
+            alt="Sul América"
+            loading="lazy"
+          />
+          <img src="/images/allianz.webp" alt="Allianz" loading="lazy" />
+          <img
+            src="/images/bradesco-seguros.webp"
+            alt="Bradesco Seguros"
+            loading="lazy"
+          />
+          <img
+            src="/images/zurich-seguros.webp"
+            alt="Zurich Seguros"
+            loading="lazy"
+          />
+          <img
+            src="/images/azul-seguros.webp"
+            alt="Azul Seguros"
+            loading="lazy"
+          />
+          <img
+            src="/images/liberty-seguros.webp"
+            alt="Liberty Seguros"
+            loading="lazy"
+          />
           <img
             src="/images/tokio-marine-seguradora.webp"
             alt="Tokio Marine Seguradora"
+            loading="lazy"
           />
-          <img src="/images/sompo-seguros.webp" alt="Sompo Seguros" />
-          <img src="/images/aliro-seguro.webp" alt="Aliro Seguro" />
+          <img
+            src="/images/sompo-seguros.webp"
+            alt="Sompo Seguros"
+            loading="lazy"
+          />
+          <img
+            src="/images/aliro-seguro.webp"
+            alt="Aliro Seguro"
+            loading="lazy"
+          />
         </div>
       </PartnerCompanies>
     </Container>

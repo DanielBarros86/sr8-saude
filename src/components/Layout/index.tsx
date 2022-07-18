@@ -17,7 +17,7 @@ export function Layout({ children }: LayoutProps) {
 
       <Footer>
         <div>
-          <img src="/images/logo2.webp" alt="SR8 Saúde Brasil" />
+          <img src="/images/logo2.webp" alt="SR8 Saúde Brasil" loading="lazy" />
 
           <section>
             <strong>Serviços</strong>

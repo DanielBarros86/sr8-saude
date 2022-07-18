@@ -34,7 +34,11 @@ export default function Services() {
             </p>
           </div>
 
-          <img src="/images/medical-equipment.webp" alt="Equipamento médico" />
+          <img
+            src="/images/medical-equipment.webp"
+            alt="Equipamento médico"
+            loading="lazy"
+          />
         </Section>
 
         <Section>
@@ -50,7 +54,11 @@ export default function Services() {
             </p>
           </div>
 
-          <img src="/images/condominium-large.webp" alt="Condominio" />
+          <img
+            src="/images/condominium-large.webp"
+            alt="Condominio"
+            loading="lazy"
+          />
         </Section>
 
         <Section>
@@ -66,7 +74,11 @@ export default function Services() {
             </p>
           </div>
 
-          <img src="/images/family-large.webp" alt="Família se abraçando" />
+          <img
+            src="/images/family-large.webp"
+            alt="Família se abraçando"
+            loading="lazy"
+          />
         </Section>
 
         <Section>
@@ -82,7 +94,11 @@ export default function Services() {
             </p>
           </div>
 
-          <img src="/images/car-large.webp" alt="Carro azul na rodovia" />
+          <img
+            src="/images/car-large.webp"
+            alt="Carro azul na rodovia"
+            loading="lazy"
+          />
         </Section>
 
         <Section>
@@ -101,6 +117,7 @@ export default function Services() {
           <img
             src="/images/consortium-large.webp"
             alt="Carro azul na rodovia"
+            loading="lazy"
           />
         </Section>
       </main>

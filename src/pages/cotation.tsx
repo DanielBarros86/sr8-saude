@@ -128,7 +128,7 @@ export default function Cotation() {
         </Button>
       </form>
 
-      <img src="/images/brazil-map.webp" alt="Mapa do Brasil" />
+      <img src="/images/brazil-map.webp" alt="Mapa do Brasil" loading="lazy" />
 
       {isLoading && <Loader />}
     </Container>

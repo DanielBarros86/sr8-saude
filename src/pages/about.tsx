@@ -82,7 +82,7 @@ export default function About() {
         </Values>
 
         <Contact>
-          <img src="/images/attendants.webp" alt="Atendentes" />
+          <img src="/images/attendants.webp" alt="Atendentes" loading="lazy" />
 
           <div>
             <strong>Formas de contato</strong>
