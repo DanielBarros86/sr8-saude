@@ -11,20 +11,20 @@ export default function About() {
       <SEO
         title="Sobre nós"
         description="Tudo sobre nossa empresa"
-        image="/images/banner-about.png"
+        image="/images/banner-about.webp"
       />
 
       <Banner
         title="SR8 Saúde Brasil"
         subtitle="Tudo sobre nossa empresa"
-        imageUrl="/images/banner-about.png"
-        imageUrlMobile="/images/banner-about-mobile.png"
+        imageUrl="/images/banner-about.webp"
+        imageUrlMobile="/images/banner-about-mobile.webp"
       />
 
       <main>
         <Description>
           <img
-            src="/images/women-wearing-company-shirt.png"
+            src="/images/women-wearing-company-shirt.webp"
             alt="Mulher vestindo a camida da SR8 Saúde Brasil"
           />
 
@@ -82,7 +82,7 @@ export default function About() {
         </Values>
 
         <Contact>
-          <img src="/images/attendants.png" alt="Atendentes" />
+          <img src="/images/attendants.webp" alt="Atendentes" />
 
           <div>
             <strong>Formas de contato</strong>

@@ -75,7 +75,7 @@ export default function Cotation() {
       <SEO
         title="Cotação"
         description="Solicite a sua cotação"
-        image="/images/banner-home.png"
+        image="/images/banner-home.webp"
       />
 
       <header>
@@ -128,7 +128,7 @@ export default function Cotation() {
         </Button>
       </form>
 
-      <img src="/images/brazil-map.png" alt="Mapa do Brasil" />
+      <img src="/images/brazil-map.webp" alt="Mapa do Brasil" />
 
       {isLoading && <Loader />}
     </Container>

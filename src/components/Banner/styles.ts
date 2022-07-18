@@ -58,7 +58,7 @@ export const Container = styled.div<ContainerProps>`
     height: ${({ height }) => `calc(${height} - 2rem)`};
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${({ imageUrlMobile }) =>
       imageUrlMobile &&
       css`

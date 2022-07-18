@@ -16,20 +16,20 @@ export default function LGDP() {
       <SEO
         title="LGPD"
         description="Política de Privacidade"
-        image="/images/banner-lgpd.png"
+        image="/images/banner-lgpd.webp"
       />
 
       <Banner
         title="Política de Privacidade"
         subtitle="LGPD"
-        imageUrl="/images/banner-lgpd.png"
-        imageUrlMobile="/images/banner-lgpd-mobile.png"
+        imageUrl="/images/banner-lgpd.webp"
+        imageUrlMobile="/images/banner-lgpd-mobile.webp"
       />
 
       <main>
         <Description>
           <img
-            src="/images/cloud-security.png"
+            src="/images/cloud-security.webp"
             alt="Nuvem com cadeado representando a segurança na nuvem"
           />
 

@@ -10,14 +10,14 @@ export default function Services() {
       <SEO
         title="Serviços"
         description="Seguros e planos para você e sua família"
-        image="/images/banner-services.png"
+        image="/images/banner-services.webp"
       />
 
       <Banner
         title="Seguros e Planos para você e sua família"
         subtitle="Planos diversos"
-        imageUrl="/images/banner-services.png"
-        imageUrlMobile="/images/banner-services-mobile.png"
+        imageUrl="/images/banner-services.webp"
+        imageUrlMobile="/images/banner-services-mobile.webp"
       />
 
       <main>
@@ -34,7 +34,7 @@ export default function Services() {
             </p>
           </div>
 
-          <img src="/images/medical-equipment.png" alt="Equipamento médico" />
+          <img src="/images/medical-equipment.webp" alt="Equipamento médico" />
         </Section>
 
         <Section>
@@ -50,7 +50,7 @@ export default function Services() {
             </p>
           </div>
 
-          <img src="/images/condominium-large.png" alt="Condominio" />
+          <img src="/images/condominium-large.webp" alt="Condominio" />
         </Section>
 
         <Section>
@@ -66,7 +66,7 @@ export default function Services() {
             </p>
           </div>
 
-          <img src="/images/family-large.png" alt="Família se abraçando" />
+          <img src="/images/family-large.webp" alt="Família se abraçando" />
         </Section>
 
         <Section>
@@ -82,7 +82,7 @@ export default function Services() {
             </p>
           </div>
 
-          <img src="/images/car-large.png" alt="Carro azul na rodovia" />
+          <img src="/images/car-large.webp" alt="Carro azul na rodovia" />
         </Section>
 
         <Section>
@@ -98,7 +98,10 @@ export default function Services() {
             </p>
           </div>
 
-          <img src="/images/consortium-large.png" alt="Carro azul na rodovia" />
+          <img
+            src="/images/consortium-large.webp"
+            alt="Carro azul na rodovia"
+          />
         </Section>
       </main>
     </Container>

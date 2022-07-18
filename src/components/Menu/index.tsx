@@ -37,7 +37,7 @@ export function Menu() {
       <nav>
         <Link href="/">
           <a>
-            <img src="/images/logo.png" alt="SR8 Saúde Brasil" />
+            <img src="/images/logo.webp" alt="SR8 Saúde Brasil" />
           </a>
         </Link>
 
