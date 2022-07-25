@@ -54,11 +54,7 @@ export default function Services() {
             </p>
           </div>
 
-          <img
-            src="/images/condominium-large.webp"
-            alt="Condominio"
-            loading="lazy"
-          />
+          <img src="/images/house-large.webp" alt="Casa" loading="lazy" />
         </Section>
 
         <Section>

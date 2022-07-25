@@ -102,7 +102,7 @@ export const PartnerCompanies = styled.section`
 
   h2 {
     display: block;
-    font-size: 2.5rem;
+    font-size: 2.45rem;
     text-align: center;
   }
 

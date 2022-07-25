@@ -3,7 +3,7 @@ import { Container } from './styles';
 
 type BannerProps = {
   title: string;
-  subtitle: string;
+  subtitle?: string;
   imageUrl: string;
   imageUrlMobile?: string;
   imagePosition?:
@@ -33,7 +33,8 @@ export function Banner({
       imageUrl={imageUrl}
       imageUrlMobile={imageUrlMobile}
       imagePosition={imagePosition}
-      height={height}>
+      height={height}
+    >
       <strong>{title}</strong>
       <span>{subtitle}</span>
       {children}

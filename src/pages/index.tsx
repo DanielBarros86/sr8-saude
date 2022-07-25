@@ -25,11 +25,11 @@ export default function Home() {
 
       <Banner
         title="Sua casa e sua família mais protegidas"
-        subtitle="Planos de Saúde"
         imageUrl="/images/banner-home.webp"
         imageUrlMobile="/images/banner-home-mobile.webp"
         imagePosition="initial"
-        height="45rem">
+        height="45rem"
+      >
         <Link href="/cotation" passHref>
           <Button as="a" buttonType="tertiary">
             Iniciar cotação
@@ -41,11 +41,7 @@ export default function Home() {
         <h2>Mais oportunidades para você!</h2>
 
         <div>
-          <img
-            src="/images/condominium-small.webp"
-            alt="Condomínio"
-            loading="lazy"
-          />
+          <img src="/images/house-small.webp" alt="Casa" loading="lazy" />
           <img
             src="/images/family-small.webp"
             alt="Família se abraçando"
@@ -82,11 +78,11 @@ export default function Home() {
       </Location>
 
       <Highlighted>
-        <strong>Destaquee!</strong>
+        <strong>Destaque!</strong>
       </Highlighted>
 
       <PartnerCompanies>
-        <h2>Empresas que somos parceiros</h2>
+        <h2>Empresas parceiras</h2>
 
         <div>
           <img
