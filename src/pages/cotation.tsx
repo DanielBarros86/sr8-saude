@@ -36,10 +36,6 @@ const validationSchema = yup.object().shape({
 });
 
 export default function Cotation() {
-  const [isLoading, setIsLoading] = useState(false);
-
-  const router = useRouter();
-
   const {
     register,
     control,
@@ -62,7 +58,7 @@ export default function Cotation() {
     );
 
     window.open(
-      `https://api.whatsapp.com/send/?phone=5511967572528&text=${cotationMessage}`,
+      `https://api.whatsapp.com/send/?phone=5511910166743&text=${cotationMessage}`,
       '_blank',
     );
   }
