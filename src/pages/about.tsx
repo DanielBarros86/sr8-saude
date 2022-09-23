@@ -29,16 +29,10 @@ export default function About() {
           />
 
           <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim. Amet minim mollit non
-            deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-            consequat duis enim. Amet minim mollit non deserunt ullamco est sit
-            aliqua dolor do amet sint. Velit officia consequat duis enim. Amet
-            minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-            Velit officia consequat duis enim. Amet minim mollit non deserunt
-            ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-            duis enim. Amet minim mollit non deserunt ullamco est sit aliqua
-            dolor do amet sint. Velit officia consequat duis enim.
+            A SR8 Brasil começou suas atividades em 2020, na cidade de São Paulo
+            (SP). Antes de se tornar um negócio, era um sonho. Com apenas dois
+            funcionários, muita dedicação e muita vontade de fazer dar certo,
+            fizeram com que nossos sonhos saíssem do papel.
           </p>
         </Description>
 
@@ -52,8 +46,10 @@ export default function About() {
               </div>
 
               <span>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.{' '}
+                <b>Missão</b>: Oferecer transparência, honestidade e excelência
+                de qualidade na prestação de serviços de seguros, com base em
+                conhecimentos adquiridos e responsabilidade social, como maneira
+                de contribuir com as prioridades de cada cliente.
               </span>
             </li>
 
@@ -63,8 +59,10 @@ export default function About() {
               </div>
 
               <span>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.{' '}
+                <b>Visão</b>: Ser líder e inovar na prestação de serviços de
+                seguros, referência na gestão do conhecimento e reconhecida pelo
+                comprometimento e excelência profissional. Valores: Organização,
+                verdade, integridade, ética e transparência.
               </span>
             </li>
 
@@ -74,8 +72,8 @@ export default function About() {
               </div>
 
               <span>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.{' '}
+                <b>Valores</b>: Organização, verdade, integridade, ética e
+                transparência.
               </span>
             </li>
           </ul>
@@ -88,7 +86,7 @@ export default function About() {
             <strong>Formas de contato</strong>
 
             <div>
-              <span>(34) 99999-9999</span>
+              <span>(11) 91016-6743</span>
               <span>email@email.com.br</span>
               <span>Rua Endereço Endereço - SP</span>
             </div>

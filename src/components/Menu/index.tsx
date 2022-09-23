@@ -74,14 +74,14 @@ export function Menu() {
             </li>
           </ul>
 
-          <Link href="/contact-us" passHref>
-            <ContactUs>
-              {!isSidebarOpen && (
-                <img src="/icons/whatsapp.svg" alt="WhatsApp" />
-              )}
-              Fale Conosco
-            </ContactUs>
-          </Link>
+          <ContactUs
+            href="https://api.whatsapp.com/send/?phone=5511910166743"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {!isSidebarOpen && <img src="/icons/whatsapp.svg" alt="WhatsApp" />}
+            Fale Conosco
+          </ContactUs>
         </Items>
 
         {isSidebarOpen && (

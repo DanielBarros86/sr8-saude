@@ -43,12 +43,15 @@ export function Layout({ children }: LayoutProps) {
               <a>Contato</a>
             </Link>
 
-            <Link href="/contact-us" passHref>
-              <Button as="a">
-                <img src="/icons/whatsapp.svg" alt="WhatsApp" />
-                Fale Conosco
-              </Button>
-            </Link>
+            <Button
+              as="a"
+              href="https://api.whatsapp.com/send/?phone=5511910166743"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/icons/whatsapp.svg" alt="WhatsApp" />
+              Fale Conosco
+            </Button>
           </section>
         </div>
 

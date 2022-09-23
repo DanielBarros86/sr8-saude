@@ -65,14 +65,11 @@ export default function Home() {
         <div>
           <h2>SR8 Saúde Brasil</h2>
           <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim. Amet minim mollit non
-            deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-            consequat duis enim. Amet minim mollit non deserunt ullamco est sit
-            aliqua dolor do amet sint. Velit officia consequat duis enim. Amet
-            minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-            Velit officia consequat duis enim. Amet minim mollit non deserunt
-            ullamco est sit aliqua dolor do amet sint.
+            Atualmente Oferecemos seguros e serviços em diferentes segmentos do
+            setor, entre eles: Vida, Saúde, Automóvel, Residencial, consórcio,
+            entre outros. Trabalhamos com agilidade e eficiência procurando
+            promover a satisfação sempre. O nosso trabalho é levar até você os
+            melhores planos e serviços do mercado.
           </p>
         </div>
       </Location>
