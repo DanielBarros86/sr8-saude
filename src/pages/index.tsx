@@ -30,7 +30,7 @@ export default function Home() {
         imagePosition="initial"
         height="45rem"
       >
-        <Link href="/cotation" passHref>
+        <Link href="/quotation" passHref>
           <Button as="a" buttonType="tertiary">
             Iniciar cotação
           </Button>

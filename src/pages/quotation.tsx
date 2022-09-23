@@ -1,20 +1,17 @@
-import { useState } from 'react';
 import { GetStaticProps } from 'next';
-import { useRouter } from 'next/router';
 import { useForm, Controller } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 
 import { Input } from '../components/Input';
 import { InputMask } from '../components/InputMask';
-import { Loader } from '../components/Loader';
 import { Button } from '../components/Button';
 import { SEO } from '../components/SEO';
 import { phoneNumberRegex } from '../utils/regexes';
 
-import { Container } from '../styles/pages/cotation';
+import { Container } from '../styles/pages/quotation';
 
-type Cotation = {
+type Quotation = {
   name: string;
   email: string;
   phoneNumber: string;
@@ -35,22 +32,22 @@ const validationSchema = yup.object().shape({
     }),
 });
 
-export default function Cotation() {
+export default function Quotation() {
   const {
     register,
     control,
     watch,
     handleSubmit,
     formState: { errors },
-  } = useForm<Cotation>({
+  } = useForm<Quotation>({
     mode: 'onBlur',
     resolver: yupResolver(validationSchema),
   });
 
   const phoneNumber = watch('phoneNumber');
 
-  function handleSendCotation(data: Cotation) {
-    const cotationMessage = encodeURIComponent(
+  function handleSendQuotation(data: Quotation) {
+    const quotationMessage = encodeURIComponent(
       'Olá! Gostaria se solicitar uma cotação, segue abaixo os dados:\n\n' +
         `*Nome*: ${data.name}\n` +
         `*Telefone*: ${data.phoneNumber}\n` +
@@ -58,7 +55,7 @@ export default function Cotation() {
     );
 
     window.open(
-      `https://api.whatsapp.com/send/?phone=5511910166743&text=${cotationMessage}`,
+      `https://api.whatsapp.com/send/?phone=5511910166743&text=${quotationMessage}`,
       '_blank',
     );
   }
@@ -79,7 +76,7 @@ export default function Cotation() {
         </span>
       </header>
 
-      <form onSubmit={handleSubmit(handleSendCotation)}>
+      <form onSubmit={handleSubmit(handleSendQuotation)}>
         <Input
           placeholder="Nome"
           error={errors.name?.message}
@@ -122,8 +119,6 @@ export default function Cotation() {
       </form>
 
       <img src="/images/brazil-map.webp" alt="Mapa do Brasil" loading="lazy" />
-
-      {isLoading && <Loader />}
     </Container>
   );
 }

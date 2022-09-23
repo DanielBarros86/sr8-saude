@@ -62,7 +62,7 @@ export function Menu() {
             </li>
 
             <li>
-              <Link href="/cotation">
+              <Link href="/quotation">
                 <a>Cotação</a>
               </Link>
             </li>
