@@ -55,19 +55,17 @@ export default function Cotation() {
   const phoneNumber = watch('phoneNumber');
 
   function handleSendCotation(data: Cotation) {
-    setIsLoading(true);
+    const cotationMessage = encodeURIComponent(
+      'Olá! Gostaria se solicitar uma cotação, segue abaixo os dados:\n\n' +
+        `*Nome*: ${data.name}\n` +
+        `*Telefone*: ${data.phoneNumber}\n` +
+        `*E-mail*: ${data.email}`,
+    );
 
-    console.log(data);
-
-    setTimeout(() => {
-      setIsLoading(false);
-
-      router.push('/');
-
-      toast('Cotação enviada com sucesso', {
-        type: 'success',
-      });
-    }, 2000);
+    window.open(
+      `https://api.whatsapp.com/send/?phone=5511967572528&text=${cotationMessage}`,
+      '_blank',
+    );
   }
 
   return (
