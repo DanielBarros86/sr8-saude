@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
-import { toast } from 'react-toastify';
 import { useForm, Controller } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
