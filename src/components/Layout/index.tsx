@@ -35,9 +35,9 @@ export function Layout({ children }: LayoutProps) {
               <a>Sobre nós</a>
             </Link>
 
-            <Link href="/lgpd">
+            {/* <Link href="/lgpd">
               <a>LGPD</a>
-            </Link>
+            </Link> */}
 
             <Link href="/contact">
               <a>Contato</a>
