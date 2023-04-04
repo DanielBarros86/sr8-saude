@@ -218,4 +218,5 @@ export default function LGDP() {
 
 export const getStaticProps: GetStaticProps = () => ({
   props: {},
+  notFound: true,
 });

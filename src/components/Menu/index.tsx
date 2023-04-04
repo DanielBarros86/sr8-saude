@@ -66,12 +66,12 @@ export function Menu() {
                 <a>Cotação</a>
               </Link>
             </li>
-
+            {/*
             <li>
               <Link href="/lgpd">
                 <a>LGPD</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
 
           <ContactUs
